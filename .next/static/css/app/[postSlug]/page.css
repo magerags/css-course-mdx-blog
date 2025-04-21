@@ -1,0 +1,76 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/[postSlug]/postSlug.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.postSlug_wrapper__QrzFu {
+  padding-bottom: 64px;
+  position: relative;
+  z-index: 2;
+}
+
+.postSlug_page__76f9S {
+  position: relative;
+  display: grid;
+  grid-template-columns:
+    1fr min(var(--trimmed-content-width), 100%)
+    1fr;
+  max-width: var(--outer-content-width);
+  margin: 0 auto;
+  padding: 64px var(--viewport-padding) 32px;
+  background: var(--color-page-background);
+  box-shadow: var(--shadow-page);
+}
+
+.postSlug_page__76f9S > * {
+  grid-column: 2;
+}
+
+@media (min-width: 80rem) {
+  .postSlug_page__76f9S {
+    border: 1px solid var(--color-page-border);
+
+    border-radius: 8px;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/BlogHero/BlogHero.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.BlogHero_wrapper__M743_ {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  max-width: var(--outer-content-width);
+  margin: 0 auto;
+}
+
+.BlogHero_content__ioSG7 {
+  position: relative;
+  width: 100%;
+  max-width: var(--content-width);
+  padding: var(--viewport-padding);
+  padding-top: calc(48px + 8vw);
+  padding-bottom: 64px;
+}
+
+.BlogHero_content__ioSG7 h1 {
+  margin-bottom: 0.5rem;
+}
+.BlogHero_content__ioSG7 p {
+  font-size: 1.125rem;
+  color: var(--color-decorative-900);
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+.BlogHero_content__ioSG7 time {
+  font-weight: 500;
+}
+
+@media (min-width: 35rem) {
+  .BlogHero_content__ioSG7 p {
+    font-size: 1.25rem;
+  }
+}
+
