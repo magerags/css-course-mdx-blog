@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/tomwhittle/code/website/src/app/layout\":[\"static/media/58445febe6797cc6-s.p.woff2\",\"static/media/6905431624c34d00-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
