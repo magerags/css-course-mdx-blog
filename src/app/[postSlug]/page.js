@@ -26,8 +26,6 @@ export async function generateMetadata({ params }) {
   };
 }
 
-console.log("BlogPost");
-
 async function BlogPost({ params }) {
   const post = await getBlogData(params.postSlug);
 
